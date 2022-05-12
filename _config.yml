@@ -1,5 +1,5 @@
-title: Hans5958's Website
-description: Ready or not, here we go! Website of Hans5958.
+title: Hans5958
+description: The website of Hans5958.
 baseurl: ""
 url: https://hans5958.github.io
 
@@ -9,5 +9,7 @@ copyright_year: 2022
 repository: https://github.com/Hans5958/hans5958.github.io
 
 markdown: kramdown
+livereload: true
+
 include: [".well-known"]
 exclude: ["README.md", "CODE_OF_CONDUCT.md"]

@@ -9,11 +9,14 @@ description: Welcome to my website, stranger! I'm Hans5958. I'm a student who li
 <script defer src="https://platform.twitter.com/widgets.js"></script>
 
 <div class="container">
-	<div class="jumbotron">
-		<h1 class="display-2 d-none d-xl-block">Hans5958's Website</h1>
-		<h1 class="display-3 d-none d-md-block d-xl-none">Hans5958's Website</h1>
-		<h1 class="display-4 d-block d-md-none">Hans5958's Website</h1>
-		<p class="lead">Welcome to my website, stranger!</p>
+	<div id="jumbotron" class="jumbotron py-4">
+		<div class="d-flex flex-column flex-md-row">
+			<div class="flex-grow-1 d-flex flex-column justify-content-center mr-2">
+				<h1>Hans5958 <small>(that's me!)</small></h1>
+				<p>Hi there! Welcome to the website, dear stranger.</p>
+			</div>
+			<div><img class="d-flex mx-auto" src="https://avatars3.githubusercontent.com/u/11584103?s=460&v=4" height="200"></div>
+		</div>
 	</div>
 	<div class="row">
 		<div class="col-12 col-md-8">
@@ -29,7 +32,7 @@ description: Welcome to my website, stranger! I'm Hans5958. I'm a student who li
 			<p>You want other stuff than tech? Go check out <a href="https://youtube.com/Hans5958">my YouTube channel</a>, <a href="https://twitter.com/Hans5958">my Twitter account</a>, and <a href="https://hans5958.github.io/blog">my blog</a>. I also publish some random texts on <a href="https://gist.github.com/Hans5958">my Gists</a>.</p>		</div>
 		<div class="col-12 col-md-4">
 			<div id="github-card" class="widget" data-sort-by="updateTime" data-header-text="Last updated repositories" data-max-repos="3" data-username="Hans5958"></div>
-			<a class="twitter-timeline" data-height="250" data-dnt="true" href="https://twitter.com/Hans5958?ref_src=twsrc%5Etfw">Tweets by Hans5958</a>
+			<div class="mt-2"><a class="twitter-timeline d-none" data-height="350" data-dnt="true" href="https://twitter.com/Hans5958?ref_src=twsrc%5Etfw">Tweets by Hans5958</a></div>
 		</div>
 	</div>
 </div>
