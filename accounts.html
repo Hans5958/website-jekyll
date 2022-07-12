@@ -8,7 +8,7 @@ Description: Here are some of my accounts. You can contact me through these.
 
 <script>
 
-	$.getJSON("/assets/other/accounts.json", response => {
+	fetch("/assets/other/accounts.json").then(response => response.json()).then(response => {
 
 		response.forEach((item, value) => {
 			
@@ -119,7 +119,7 @@ Description: Here are some of my accounts. You can contact me through these.
 
 <div class="container">
 	<h1>Accounts</h1>
-	<p>Here are some of my accounts. You can contact me through these.</p>
+	<p>Here are some of my accounts that I have. If possible within the service, you can contact me through one of these.</p>
 </div>
 
 <div class="container-xl" id="accounts">

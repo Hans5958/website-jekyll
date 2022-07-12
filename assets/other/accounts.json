@@ -6,22 +6,22 @@
 		"icon": "logos:github-icon"
 	},
 	{
-		"site": "Keybase",
-		"username": "hans5958",
-		"url": "https://keybase.io/hans5958",
-		"icon": "/assets/img/icons/keybase.png"
+		"site": "GitHub",
+		"username": "Auto5958",
+		"url": "https://github.com/Auto5958",
+		"icon": "logos:github-icon"
 	},
 	{
-		"site": "Reddit",
-		"username": "Hans5958_",
-		"url": "https://reddit.com/u/Hans5958_",
-		"icon": "logos:reddit-icon"
+		"site": "GitLab",
+		"username": "Hans5958",
+		"url": "https://gitlab.com/Hans5958",
+		"icon": "logos:gitlab"
 	},
 	{
-		"site": "Discord",
-		"username": "Hans5958#0969",
-		"url": "",
-		"icon": "logos:discord"
+		"site": "GitLab",
+		"username": "Auto5958",
+		"url": "https://gitlab.com/Auto5958",
+		"icon": "logos:gitlab"
 	},
 	{
 		"site": "Twitter",
@@ -50,16 +50,16 @@
 		"iconStyle": "color: red"
 	},
 	{
-		"site": "Minecraft",
-		"username": "Hans5958",
-		"url": "https://namemc.com/profile/Hans5958.1",
-		"icon": "/assets/img/icons/minecraft.png"
+		"site": "Reddit",
+		"username": "Hans5958_",
+		"url": "https://reddit.com/u/Hans5958_",
+		"icon": "logos:reddit-icon"
 	},
 	{
-		"site": "osu!",
-		"username": "Hans5958",
-		"url": "https://osu.ppy.sh/u/Hans5958",
-		"icon": "/assets/img/icons/osu.png"
+		"site": "Discord",
+		"username": "Hans5958#0969",
+		"url": "",
+		"icon": "logos:discord-icon"
 	},
 	{
 		"site": "Instagram",
@@ -72,18 +72,6 @@
 		"username": "Hans5958_",
 		"url": "https://twitch.tv/Hans5958_",
 		"icon": "logos:twitch"
-	},
-	{
-		"site": "Steam",
-		"username": "Hans5958_",
-		"url": "https://steamcommunity.com/id/Hans5958",
-		"icon": "logos:steam"
-	},
-	{
-		"site": "TypeRacer",
-		"username": "Hans5958",
-		"url": "https://data.typeracer.com/pit/profile?user=hans5958",
-		"icon": ""
 	},
 	{
 		"site": "Scratch",
@@ -100,7 +88,13 @@
 	{
 		"site": "Wikipedia",
 		"username": "Hans5958",
-		"url": "https://en.wikipedia.org/wiki/User:Hans5958",
+		"url": "https://meta.wikimedia.org/wiki/User:Hans5958",
+		"icon": "simple-icons:wikipedia"
+	},
+	{
+		"site": "Wikipedia",
+		"username": "Bot5958",
+		"url": "https://meta.wikimedia.org/wiki/User:Bot5958",
 		"icon": "simple-icons:wikipedia"
 	},
 	{
@@ -108,5 +102,41 @@
 		"username": "hans5958",
 		"url": "https://dev.to/hans5958",
 		"icon": "simple-icons:dev-dot-to"
+	},
+	{
+		"site": "Keybase",
+		"username": "hans5958",
+		"url": "https://keybase.io/hans5958",
+		"icon": "/assets/img/icons/keybase.png"
+	},
+	{
+		"site": "Minecraft",
+		"username": "Hans5958",
+		"url": "https://namemc.com/profile/Hans5958.1",
+		"icon": "/assets/img/icons/minecraft.png"
+	},
+	{
+		"site": "osu!",
+		"username": "Hans5958",
+		"url": "https://osu.ppy.sh/u/Hans5958",
+		"icon": "/assets/img/icons/osu.png"
+	},
+	{
+		"site": "Steam",
+		"username": "Hans5958_",
+		"url": "https://steamcommunity.com/id/Hans5958",
+		"icon": "logos:steam"
+	},
+	{
+		"site": "Roblox",
+		"username": "Pixel5958",
+		"url": "https://www.roblox.com/users/3581240125/profile",
+		"icon": "simple-icons:roblox"
+	},
+	{
+		"site": "TypeRacer",
+		"username": "Hans5958",
+		"url": "https://data.typeracer.com/pit/profile?user=hans5958",
+		"icon": ""
 	}
 ]
