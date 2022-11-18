@@ -11,14 +11,19 @@ Description: Here are some of my accounts. You can contact me through these.
 	fetch("/assets/other/accounts.json").then(response => response.json()).then(response => {
 
 		response.forEach((item, value) => {
+
+			let infoWrapperEl = document.createElement('div')
+			infoWrapperEl.classList.add('flex-grow-1')
 			
 			let siteEl = document.createElement("p")
 			siteEl.className = "site-name"
 			siteEl.textContent = item.site
+			infoWrapperEl.appendChild(siteEl)
 
 			let userEl = document.createElement("p")
 			userEl.className = "user-name"
 			userEl.textContent = item.username
+			infoWrapperEl.appendChild(userEl)
 
 			let iconEl
 			if (item.icon) {
@@ -43,17 +48,14 @@ Description: Here are some of my accounts. You can contact me through these.
 			linkEl.href = "#"
 			linkEl.target = "_blank"
 			linkEl.href = item.url
+			linkEl.rel = "me"
+			linkEl.className = "account flex-grow-1 d-flex"
 			linkEl.appendChild(iconEl)
-			linkEl.appendChild(siteEl)
-			linkEl.appendChild(userEl)
-
-			let wrapEl = document.createElement("div")
-			wrapEl.className = "account"
-			wrapEl.appendChild(linkEl)
+			linkEl.appendChild(infoWrapperEl)
 			
 			let colEl = document.createElement("div")
-			colEl.className = "col-12 col-sm-6 col-md-4 col-xl-3"
-			colEl.appendChild(wrapEl)
+			colEl.className = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex align-items-center"
+			colEl.appendChild(linkEl)
 
 			// if (value % 4 === 0) {
 			// 	let rowEl = document.createElement("div")
@@ -72,36 +74,28 @@ Description: Here are some of my accounts. You can contact me through these.
 		padding: 0
 	}
 
+	.account:hover {
+		background: rgba(0, 0, 0, 0.05);
+	}
+
 	.account {
+		padding: 0.375rem 15px;
 		color: black;
-		padding: 0.375rem 15px
+		display: flex;
 	}
 
 	.account:hover {
-		background: rgb(248, 248, 248);
-	}
-
-	.account a {
-		color: black;
-	}
-
-	.account a:hover {
+		color: unset;
 		text-decoration: none
 	}
 
 	.site-icon {
-		display: block;
-		float: left;
 		margin-bottom: auto;
 		margin-right: 0.75rem;
 		margin-top: auto;
-		max-height: 64px;
-		max-width: 64px
-	}
-
-	.site-icon.iconify {
 		height: 64px;
-		width: 64px
+		width: 64px;
+		object-fit: inherit;
 	}
 
 	.site-name {

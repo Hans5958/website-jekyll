@@ -68,10 +68,22 @@
 		"icon": "/assets/img/icons/instagram.png"
 	},
 	{
+		"site": "Mastodon",
+		"username": "Hans5958@mastodon.social",
+		"url": "https://mastodon.social/@Hans5958",
+		"icon": "logos:mastodon-icon"
+	},
+	{
 		"site": "Twitch",
 		"username": "Hans5958_",
 		"url": "https://twitch.tv/Hans5958_",
 		"icon": "logos:twitch"
+	},
+	{
+		"site": "dev.to",
+		"username": "hans5958",
+		"url": "https://dev.to/hans5958",
+		"icon": "simple-icons:dev-dot-to"
 	},
 	{
 		"site": "Scratch",
@@ -98,16 +110,50 @@
 		"icon": "simple-icons:wikipedia"
 	},
 	{
-		"site": "dev.to",
-		"username": "hans5958",
-		"url": "https://dev.to/hans5958",
-		"icon": "simple-icons:dev-dot-to"
+		"site": "Fandom",
+		"username": "Hans5958",
+		"url": "https://community.fandom.org/wiki/User:Hans5958",
+		"icon": "simple-icons:fandom",
+		"iconStyle": "color: #FA005A"
+	},
+	{
+		"site": "Fandom",
+		"username": "Bot5958",
+		"url": "https://community.fandom.org/wiki/User:Bot5958",
+		"icon": "simple-icons:fandom",
+		"iconStyle": "color: #FA005A"
 	},
 	{
 		"site": "Keybase",
 		"username": "hans5958",
 		"url": "https://keybase.io/hans5958",
 		"icon": "/assets/img/icons/keybase.png"
+	},
+	{
+		"site": "Steam",
+		"username": "Hans5958",
+		"url": "https://steamcommunity.com/id/Hans5958",
+		"icon": "logos:steam"
+	},
+	{
+		"site": "Epic Games",
+		"username": "Hans5958",
+		"url": "",
+		"icon": "simple-icons:epicgames",
+		"iconStyle": "#313131"
+	},
+	{
+		"site": "Xbox",
+		"username": "Hans5958",
+		"url": "https://account.xbox.com/en-US/Profile?gamerTag=Hans5958",
+		"icon": "simple-icons:xbox",
+		"iconStyle": "color: #107C10"
+	},
+	{
+		"site": "EA",
+		"username": "Hans5958",
+		"url": "",
+		"icon": "simple-icons:ea"
 	},
 	{
 		"site": "Minecraft",
@@ -120,12 +166,6 @@
 		"username": "Hans5958",
 		"url": "https://osu.ppy.sh/u/Hans5958",
 		"icon": "/assets/img/icons/osu.png"
-	},
-	{
-		"site": "Steam",
-		"username": "Hans5958_",
-		"url": "https://steamcommunity.com/id/Hans5958",
-		"icon": "logos:steam"
 	},
 	{
 		"site": "Roblox",
