@@ -8,7 +8,7 @@ Description: Here are some of my accounts. You can contact me through these.
 
 <script>
 
-	fetch("/assets/other/accounts.json").then(response => response.json()).then(response => {
+	fetch("{{ '/assets/other/accounts.json' | relative_url }}").then(response => response.json()).then(response => {
 
 		response.forEach((item, value) => {
 
@@ -30,7 +30,7 @@ Description: Here are some of my accounts. You can contact me through these.
 				if (/\.[a-z]+/.test(item.icon)) {
 					iconEl = document.createElement("img")
 					iconEl.className = "site-icon"
-					iconEl.src = item.icon
+					iconEl.src = new URL(item.icon.replace(/^\//, ''), "{{ '/' | absolute_url }}")
 				} else {
 					iconEl = document.createElement("span")
 					iconEl.className = "iconify site-icon"
